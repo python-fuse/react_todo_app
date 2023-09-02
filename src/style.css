@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  --bg-col: #1e1e26;
+  --txt-col: #ffffff;
+  --sec-tex: #a8a8a8;
+  --accen-col: #8a2be2;
+  --button-col: #6a5acd;
+  --highlight: #9b30ff;
+  --link-col: #9370db;
+  --error: #ff4500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background: var(--bg-col);
+  color: var(--txt-col);
+}
+.container {
+  width: 400px;
+  background-color: var(--accen-col);
+  margin: 50px auto;
+  padding: 20px;
+  border: 2px solid var(--highlight);
+  border-radius: 12px;
+}
+.header {
+  text-align: center;
+}
+.header h1 {
+  margin-bottom: 8px;
+}
+.header form {
+  display: flex;
+  justify-content: space-around;
+}
+h3{
+  text-align: center;
+}
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--link-col);
+  padding: 12px;
+  margin-top: 15px;
+  border-radius: 8px;
+}
+.list-item p {
+  font-size: larger;
+  align-self: center;
+}
+.list {
+  align-items: center;
+}
+ul {
+  list-style: none;
+  display: inline;
+}
+.header input[type="submit"] {
+  background-color: transparent;
+  border: 2px solid var(--highlight);
+  border-radius: 8px;
+  font-size: large;
+  padding: 6px;
+  height: 45px;
+  color: var(--txt-col);
+  align-content: center;
+}
+.header input[type="submit"]:hover {
+  background-color: var(--button-col);
+}
+.header input[type="text"] {
+  padding: 6px;
+  width: 15em;
+  border: 2px solid var(--highlight);
+  border-radius: 10px;
+  height: 25px;
+  background-color: var(--link-col);
+  color: var(--txt-col);
+  font-size: medium;
+  
+}
+
+.list-item button {
+  color: var(--error);
+  border: 2px solid var(--error);
+  border-radius: 8px;
+  font-size: 25px;
+  background-color: transparent;
+}
+.list-item button:hover {
+  background-color: #ff440036;
+}
