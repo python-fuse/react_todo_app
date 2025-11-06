@@ -3,6 +3,8 @@ import "./style.css";
 import { HeaderForm } from "./components/HeaderForm";
 import { TodoList } from "./components/TodoList";
 
+// I felt like Linus Torvalds writing this 😹😹😹
+
 export default function App() {
   const [todos, setTodos] = useState(() => {
     const localValue = localStorage.getItem("ITEM");
